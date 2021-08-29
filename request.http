@@ -1,0 +1,9 @@
+PUT http://localhost:8000/make
+Content-Type: application/json
+
+{
+  "drinkType": "coffee",
+  "money": 60,
+  "sugarQuantity": 2,
+  "isExtraHot": true
+}
